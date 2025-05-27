@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividades Array</title>
+    <!-- <link rel="stylesheet" href="./reset.css"> -->
+</head>
+
+<body>
+    <h3>1.Calculadora de Horas Trabalhadas</h3>
+    <p>
+        Contexto:<br>
+        Você é um programador freelancer e quer calcular o valor total a receber com base nas horas trabalhadas e no
+        cobrado por hora.
+        <br>
+        Desafio:
+        <br>
+    <ul>
+        <li>Crie uma função <b>calcularPagamento</b> que:</li>
+        <li>Recebe dois parâmetros: <b>horasTrabalhadas e valorHora</b>.</li>
+        <li>Retorna o valor total a receber (multiplicação simples).</li>
+        <li>Se <b>horasTrabalhadas</b> for menor ou igual a 0, exiba uma mensagem de erro.</li>
+        <li>Se o valor total for maior que R$2000, exiba uma mensagem especial parabenizando.</li>
+    </ul>
+    <br>
+    🧩 Requisitos adicionais:<br>
+    Crie um formulário HTML para inserir as informações.<br>
+    Exiba o resultado com innerHTML
+    </p>
+    <br>
+    <form id="calculo_Horas_Trabalhadas_form">
+        <label for="inputhorasTrabalhadas">Digite as horas trabalhadas:</label>
+        <input id="inputhorasTrabalhadas" type="number">
+        <label for="inputValorhora">Digite o valor da hora:</label>
+        <input id="inputValorhora" type="number">
+        <button id="calcular_horas_btn">Calcular Hora Trabalhada</button>
+        <br>
+        <p id="resultadoCalculoHoras"></p>
+    </form>
+
+    <br><br>
+    <h2>3. Classificador de Nível de Tarefa</h2>
+    <p>Contexto:
+        Você quer classificar uma tarefa de acordo com a sua prioridade e mostrar o nome da atividade junto com a
+        classificação.<br>
+        <br>
+        Desafio:
+        <br>
+        Crie uma função <strong>classificarTarefa</strong>  que:
+        Recebe dois parâmetros: atividade(string) e prioridade (number).
+        Use switch para exibir:
+        1 → “A atividade [atividade] é urgente.”
+        2 → “A atividade [atividade] é importante.”
+        3 → “A atividade [atividade] é opcional.”
+        Qualquer outro número → “Prioridade inválida para a atividade [atividade].”
+        <br>
+        🧩 Requisitos adicionais:
+        <br>
+        Crie um formulário HTML com:
+        <ul>
+            <li>Um campo de texto para o nome da atividade.</li>
+            <li>Um select com as opções de prioridade (1, 2 ou 3).</li>
+            <li>Exiba o resultado da classificação com innerHTML.</li>
+        </ul>
+    </p>
+        <form id=""></form>
+
+
+</body>
+<script src="script.js"></script>
+</html>
