@@ -1,0 +1,9 @@
+*{
+	margin: 70px
+}
+
+.calculo_Horas_Trabalhadas_form{
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}

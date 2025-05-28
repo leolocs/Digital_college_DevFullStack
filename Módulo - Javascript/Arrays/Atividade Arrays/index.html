@@ -30,17 +30,19 @@
     Exiba o resultado com innerHTML
     </p>
     <br>
-    <form id="calculo_Horas_Trabalhadas_form">
-        <label for="inputhorasTrabalhadas">Digite as horas trabalhadas:</label>
-        <input id="inputhorasTrabalhadas" type="number">
-        <label for="inputValorhora">Digite o valor da hora:</label>
-        <input id="inputValorhora" type="number">
-        <button id="calcular_horas_btn">Calcular Hora Trabalhada</button>
-        <br>
-        <p id="resultadoCalculoHoras"></p>
-    </form>
+    <div class="calculo_Horas_Trabalhadas_form">
+        <form class="calculo_Horas_Trabalhadas_form">
+            <label for="inputhorasTrabalhadas">Digite as horas trabalhadas:</label>
+            <input id="inputhorasTrabalhadas" type="number"> <br>
+            <label for="inputValorhora">Digite o valor da hora:</label>
+            <input id="inputValorhora" type="number"> <br>
+            <button id="calcular_horas_btn">Calcular Hora Trabalhada</button>
+            <br>
+            <p id="resultadoCalculoHoras"></p>
+        </form>
+    </div>
 
-    <br><br>
+    <br>
     <h2>3. Classificador de Nível de Tarefa</h2>
     <p>Contexto:
         Você quer classificar uma tarefa de acordo com a sua prioridade e mostrar o nome da atividade junto com a
@@ -49,12 +51,12 @@
         Desafio:
         <br>
         Crie uma função <strong>classificarTarefa</strong>  que:
-        Recebe dois parâmetros: atividade(string) e prioridade (number).
-        Use switch para exibir:
-        1 → “A atividade [atividade] é urgente.”
-        2 → “A atividade [atividade] é importante.”
-        3 → “A atividade [atividade] é opcional.”
-        Qualquer outro número → “Prioridade inválida para a atividade [atividade].”
+        Recebe dois parâmetros: atividade(string) e prioridade (number). <br>
+        Use switch para exibir: <br>
+        1 → “A atividade [atividade] é urgente.” <br>
+        2 → “A atividade [atividade] é importante.” <br>
+        3 → “A atividade [atividade] é opcional.” <br>
+        Qualquer outro número → “Prioridade inválida para a atividade [atividade].” <br>
         <br>
         🧩 Requisitos adicionais:
         <br>
@@ -65,7 +67,18 @@
             <li>Exiba o resultado da classificação com innerHTML.</li>
         </ul>
     </p>
-        <form id=""></form>
+        <form id="classificar_tarefa">
+            <label for="atividade">Digite a atividade da Tarefa:</label>
+            <input id="atividade" type="text"> <br>
+            <label for="prioridade_atividade">Digite a prioridade da atividade:</label>
+            <select id="prioridade">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+            </select>
+            <button id="classificar_tarefa_btn">Classificar Tarefa</button>
+            <p id="resultado_tarefa">...</p>
+        </form>
 
 
 </body>
