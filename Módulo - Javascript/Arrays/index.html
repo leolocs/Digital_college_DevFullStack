@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Array, Listas</title>
+</head>
+<body>
+    <h1>Atividades de Array</h1>
+    <h3>1. push</h3>
+    <p>Situação:
+        Você está desenvolvendo um sistema simples para registrar a lista de compras do mês.<br>
+        Cada vez que o usuário adiciona um item, ele deve ser colocado no final da lista. <br>
+        <br>
+        Desafio: <br>
+        Dado o array inicial let listaDeCompras = ['Arroz', 'Feijão'];, <br>
+        adicione os itens 'Leite' e 'Ovos' utilizando o método push. <br>
+    </p>
+    <label for="item_q1">Digite um item da lista:</label>
+    <input id="item_q1" type="text">
+    <button onclick="adicionarItem()">Adicionar item</button>
+    <p id="resposta_q1"></p>
+
+    <h3>2.Pop</h3>
+    <p>
+        Situação:
+        Em uma aplicação de fila de impressão, o último documento adicionado pode ser cancelado antes de ser impresso. <br>
+        <br>
+        Desafio: <br>
+        Dado o array let filaDeImpressao = ['doc1.pdf', 'doc2.pdf', 'relatorio.xls'];, <br>
+        remova o último documento utilizando pop e mostre qual documento foi cancelado. <br>
+    </p>
+        <p id="item_q2">filaDeImpressao = ['doc1.pdf', 'doc2.pdf', 'relatorio.xls'];</p>
+        <button onclick="removerItem()" >Remover ultimo item</button>
+
+    <h3>3.Shift</h3>
+    <p>
+        Situação:
+        Você está criando uma agenda de atendimentos. <br>
+        A cada novo atendimento finalizado, o primeiro nome da fila deve ser removido. <br>
+        <br>
+        Desafio: <br>
+        Dado o array let fila = ['Maria', 'João', 'Ana'];, utilize shift para remover a pessoa que já foi atendida. <br>
+        Mostre quem foi atendido e como ficou a fila. <br>
+    </p>
+        <p id="fila_espera">fila = ['Maria', 'João', 'Ana'];</p>
+        <button onclick="removerPrimeiro()">Atender primeiro</button>
+
+    <h3>4.Unshift</h3>
+    <p>
+        Situação:
+        Um sistema de entregas permite adicionar entregas urgentes no início da fila.
+    
+        Desafio:
+        Dado o array let entregas = ['Pedido 102', 'Pedido 103'];, adicione o 'Pedido Urgente 101' no início utilizando
+        unshift.
+        
+    
+    </p>
+
+    <h3></h3>
+
+</body>
+<script src="./script.js"></script>
+</html>

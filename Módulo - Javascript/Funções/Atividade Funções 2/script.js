@@ -43,3 +43,6 @@ classificar_tarefa_btn.addEventListener ('click', (e)=>{
 
     console.log(resultado_tarefa.textContent)
 })
+
+
+lista.splice()
