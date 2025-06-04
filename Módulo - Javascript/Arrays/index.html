@@ -48,17 +48,32 @@
 
     <h3>4.Unshift</h3>
     <p>
-        Situação:
-        Um sistema de entregas permite adicionar entregas urgentes no início da fila.
-    
-        Desafio:
-        Dado o array let entregas = ['Pedido 102', 'Pedido 103'];, adicione o 'Pedido Urgente 101' no início utilizando
-        unshift.
-        
-    
+        Situação: <br>
+        Um sistema de entregas permite adicionar entregas urgentes no início da fila. <br>
+        <br>
+        Desafio: <br>
+        Dado o array let entregas = ['Pedido 102', 'Pedido 103'];, adicione o 'Pedido Urgente 101' no início utilizando unshift.
     </p>
+        <label for="pedido">Digite o pedido</label>
+        <input id="pedido" type="text">
+        <button>Adicionar Pedido</button>
+        <p id="resposta_pedido" ></p>
 
-    <h3></h3>
+    <h3>5.forEach</h3>
+    <p>
+        Situação: <br>
+        Você está exibindo uma lista de tarefas para o dia com numeração. <br>
+    
+        Desafio: <br>
+        Dado o array let tarefas = ['Lavar roupa', 'Estudar JS', 'Fazer exercícios'];, <br>
+        utilize forEach para exibir cada tarefa precedida de sua posição, começando do 1. <br>
+        Exemplo esperado: <br>
+        • Lavar roupa <br>
+        • Estudar JS <br>
+        • Fazer exercícios <br>
+    </p>
+        <button onclick="mostrarTarefas()">Exibir Tarefas</button>
+        <p id="saida_tarefas"></p>
 
 </body>
 <script src="./script.js"></script>
