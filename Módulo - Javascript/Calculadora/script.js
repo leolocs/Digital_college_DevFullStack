@@ -1,20 +1,20 @@
 
 function soma(){
-    resultado.innerHTML = Number(n1.value) + Number(n2.value)
-    sinal.innerHTML = "+"
+    resultado.textContent = Number(n1.value) + Number(n2.value)
+    sinal.textContent = "+"
 }
 
 function sub(){
-    resultado.innerHTML = Number(n1.value) - Number(n2.value)
-    sinal.innerHTML = "-"
+    resultado.textContent = Number(n1.value) - Number(n2.value)
+    sinal.textContent = "-"
 }
 
 function multi(){
-    resultado.innerHTML = Number(n1.value) * Number(n2.value)
-    sinal.innerHTML = "*"
+    resultado.textContent = Number(n1.value) * Number(n2.value)
+    sinal.textContent = "*"
 }
 
-function soma(){
-    resultado.innerHTML = Number(n1.value) + Number(n2.value)
-    sinal.innerHTML = "+"
+function divisao(){    
+    resultado.textContent = (Number(n1.value) / Number(n2.value)).toFixed(2)
+    sinal.textContent = "/"
 }
